@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>INTERNO INVICTA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Montserrat:wght@100;300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="menu-trigger" id="menuBtn">
+        <div class="burger">
+            <span class="l1"></span>
+            <span class="l2"></span>
+        </div>
+    </div>
+
+    <div class="side-nav" id="sideNav">
+        <div class="nav-content">
+            <nav class="main-links">
+                <a href="#" class="n-link active" data-page="main">ГОЛОВНА</a>
+                <a href="#" class="n-link" data-page="about">ПРО СІМ'Ю</a>
+                <a href="#" class="n-link" data-page="rules">ПРАВИЛА</a>
+                <a href="#" class="n-link" data-page="cars">АВТОПАРК</a>
+                <a href="#" class="n-link" data-page="join">ЯК ПОТРАПИТИ</a>
+            </nav>
+            <div class="social-icons">
+                <a href="https://discord.gg/DRBRpDqFC" class="soc-item discord"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://t.me/INTINVICTA" class="soc-item telegram"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Головна сторінка -->
+    <section class="content-page active" id="main-page">
+        <div class="bg-layer">
+            <img src="src/82c54ea3db2ba0358ed8ff31e7bf6d6f.jpg" alt="Фон" class="hero-img" id="heroImg">
+            <div class="overlay-gradient"></div>
+        </div>
+        <div class="hero-center" id="heroCenter">
+            <h1 class="t-main"><span class="silver">INTER</span><span class="white">NO</span></h1>
+            <h1 class="t-main"><span class="white">INVIC</span><span class="silver">TA</span></h1>
+            <div class="hero-subtitle">FAMILIA • POTENTIA • HONOR</div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+    <!-- Про сім'ю -->
+    <section class="content-page" id="about-page">
+        <div class="page-container">
+            <div class="section-header">
+                <span class="section-subtitle">INTERNO INVICTA</span>
+                <h2 class="page-title">
+                    <span class="title-line"></span>
+                    <span class="title-text">Ієрархія <span class="gold">Влади</span></span>
+                    <span class="title-line"></span>
+                </h2>
+            </div>
+            
+            <div class="leadership-grid">
+                <!-- Голова сім'ї -->
+                <div class="leader-card" data-delay="0.1">
+                    <div class="card-glow"></div>
+                    <div class="rank-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" fill="none" stroke-width="1.2"/>
+                            <path d="M2 17L12 22L22 17" stroke="currentColor" fill="none" stroke-width="1.2"/>
+                            <path d="M2 12L12 17L22 12" stroke="currentColor" fill="none" stroke-width="1.2"/>
+                            <circle cx="12" cy="12" r="2" stroke="currentColor" fill="none" stroke-width="1.2"/>
+                        </svg>
+                    </div>
+                    <div class="leader-avatar gold">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="8" r="4" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                            <path d="M15 9L18 12L22 8" stroke="currentColor" stroke-width="1.5" class="check-mark"/>
+                        </svg>
+                    </div>
+                    <h3>Donat Lukasenko</h3>
+                    <div class="leader-title">
+                        <span class="title-badge">ГОЛОВА СІМ'Ї</span>
+                    </div>
+                    <p class="leader-desc">Засновник та голова сім'ї Interno Invicta. Його слово — закон, а вірність — фундамент нашої спільноти. Під його керівництвом сім'я досягла найвищого рівня впливу.</p>
+                    <div class="leader-stats">
+                        <div class="stat-item">
+                            <span class="stat-value">2026</span>
+                            <span class="stat-label">ЗАСНУВАННЯ</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">45</span>
+                            <span class="stat-label">ОПЕРАЦІЇ</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">∞</span>
+                            <span class="stat-label">ВЛАДА</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Заступник -->
+                <div class="leader-card" data-delay="0.2">
+                    <div class="card-glow"></div>
+                    <div class="rank-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" fill="none" stroke-width="1.2"/>
+                            <path d="M12 12V22" stroke="currentColor" fill="none" stroke-width="1.2"/>
+                            <path d="M7 9L12 12L17 9" stroke="currentColor" fill="none" stroke-width="1.2"/>
+                        </svg>
+                    </div>
+                    <div class="leader-avatar silver">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 22C12 22 20 18 20 12V5L12 2L4 5V12C4 18 12 22 12 22Z" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                            <path d="M8 12H16M12 8V16" stroke="currentColor" stroke-width="1.5" class="plus-mark"/>
+                        </svg>
+                    </div>
+                    <h3>Stas Miller</h3>
+                    <div class="leader-title">
+                        <span class="title-badge">ЩИТ СІМ'Ї</span>
+                    </div>
+                    <p class="leader-desc">Заступник та права рука лідера. Відповідає за управління, стратегію та сімейну дисципліну. Координує всі операції та забезпечує виконання наказів.</p>
+                    <div class="leader-stats">
+                        <div class="stat-item">
+                            <span class="stat-value">2026</span>
+                            <span class="stat-label">ВСТУП</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">27</span>
+                            <span class="stat-label">МІСІЇ</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">100%</span>
+                            <span class="stat-label">ЛОЯЛЬНІСТЬ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Додаткова інформація про сім'ю -->
+            <div class="family-info">
+                <div class="info-card">
+                    <div class="info-icon">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" fill="none" stroke-width="1.2"/>
+                            <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="1.2"/>
+                        </svg>
+                    </div>
+                    <h4>Заснована</h4>
+                    <p>2026 рік</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="currentColor" fill="none" stroke-width="1.2"/>
+                            <circle cx="9" cy="7" r="4" stroke="currentColor" fill="none" stroke-width="1.2"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87" stroke="currentColor" fill="none" stroke-width="1.2"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" stroke="currentColor" fill="none" stroke-width="1.2"/>
+                        </svg>
+                    </div>
+                    <h4>Чисельність</h4>
+                    <p>50+ активних учасників</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M21 10.5V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H14.5" stroke="currentColor" fill="none" stroke-width="1.2"/>
+                            <path d="M16 2L22 8" stroke="currentColor" stroke-width="1.2"/>
+                            <path d="M21 3L15 9" stroke="currentColor" stroke-width="1.2"/>
+                        </svg>
+                    </div>
+                    <h4>Статус</h4>
+                    <p>Недоторканні</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Правила -->
+    <section class="content-page" id="rules-page">
+        <div class="page-container">
+            <div class="section-header">
+                <span class="section-subtitle">LEGES FAMILIAE</span>
+                <h2 class="page-title">
+                    <span class="title-line"></span>
+                    <span class="title-text">Кодекс <span class="gold">Invicta</span></span>
+                    <span class="title-line"></span>
+                </h2>
+            </div>
+            
+            <div class="rules-grid">
+                <div class="rule-card" data-delay="0.1">
+                    <div class="rule-number">01</div>
+                    <div class="rule-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 22C12 22 20 18 20 12V5L12 2L4 5V12C4 18 12 22 12 22Z" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                            <path d="M9 12L11 14L15 10" stroke="currentColor" stroke-width="1.5" class="rule-check"/>
+                        </svg>
+                    </div>
+                    <h3>Абсолютна Лояльність</h3>
+                    <p>Інтереси сім'ї стоять вище за особисті амбіції. Зрада карається вигнанням без права повернення. Член сім'ї повинен бути готовий пожертвувати особистим заради спільного блага.</p>
+                </div>
+
+                <div class="rule-card" data-delay="0.2">
+                    <div class="rule-number">02</div>
+                    <div class="rule-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                            <circle cx="9" cy="7" r="4" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <h3>Повага до Ієрархії</h3>
+                    <p>Накази вищого складу не обговорюються. Дисципліна — це те, що відрізняє нас від натовпу. Кожен член сім'ї повинен знати своє місце та обов'язки.</p>
+                </div>
+
+                <div class="rule-card" data-delay="0.3">
+                    <div class="rule-number">03</div>
+                    <div class="rule-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                            <circle cx="12" cy="12" r="2" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <h3>Економічна Співпраця</h3>
+                    <p>Кожен член сім'ї сприяє розвитку спільного бюджету. Ми багатіємо разом, або не багатіємо взагалі. Спільні кошти розподіляються справедливо.</p>
+                </div>
+
+                <div class="rule-card" data-delay="0.4">
+                    <div class="rule-number">04</div>
+                    <div class="rule-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                            <path d="M18.5 2.5a2.121 2.121 0 1 1 3 3L12 15l-4 1 1-4 9.5-9.5z" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <h3>Дипломатія та Стиль</h3>
+                    <p>Представник Interno Invicta завжди виглядає бездоганно і діє холоднокровно. Жодних безглуздих конфліктів. Ми вирішуємо питання через переговори.</p>
+                </div>
+
+                <div class="rule-card" data-delay="0.5">
+                    <div class="rule-number">05</div>
+                    <div class="rule-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                            <circle cx="12" cy="7" r="4" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                            <path d="M22 21v-2a4 4 0 0 0-3-3.87" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <h3>Взаємодопомога</h3>
+                    <p>Член сім'ї ніколи не залишає іншого члена в біді. Ми захищаємо своїх за будь-яких обставин. Солідарність — наша зброя.</p>
+                </div>
+
+                <div class="rule-card" data-delay="0.6">
+                    <div class="rule-number">06</div>
+                    <div class="rule-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8Z" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                            <circle cx="8" cy="16" r="1" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                            <circle cx="16" cy="16" r="1" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <h3>Конфіденційність</h3>
+                    <p>Внутрішні справи сім'ї не обговорюються з сторонніми. Що відбувається в сім'ї — залишається в сім'ї. Збереження таємниць — обов'язок кожного.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Автопарк (скоро буде) -->
+    <section class="content-page" id="cars-page">
+        <div class="page-container">
+            <div class="section-header">
+                <span class="section-subtitle">GARAGE PRIVÉ</span>
+                <h2 class="page-title">
+                    <span class="title-line"></span>
+                    <span class="title-text">Приватний <span class="gold">Гараж</span></span>
+                    <span class="title-line"></span>
+                </h2>
+            </div>
+            
+            <div class="coming-soon-container">
+                <div class="coming-soon-bg">
+                    <div class="gradient-sphere"></div>
+                    <div class="gradient-sphere second"></div>
+                </div>
+                
+                <div class="coming-soon-content">
+                    <div class="premium-icon-wrapper">
+                        <div class="icon-ring"></div>
+                        <div class="icon-ring second"></div>
+                        <div class="icon-ring third"></div>
+                        <svg class="premium-icon" viewBox="0 0 24 24">
+                            <path d="M21 18V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H19C20.1046 3 21 3.89543 21 5V6" stroke="currentColor" fill="none" stroke-width="1.2"/>
+                            <path d="M21 10V14" stroke="currentColor" stroke-width="1.2"/>
+                            <path d="M9 12H15" stroke="currentColor" stroke-width="1.2"/>
+                            <path d="M12 9V15" stroke="currentColor" stroke-width="1.2"/>
+                            <circle cx="12" cy="12" r="7" stroke="currentColor" fill="none" stroke-width="1.2" class="pulse-circle"/>
+                        </svg>
+                    </div>
+
+                    <div class="status-badge">
+                        <span class="status-dot"></span>
+                        <span>IN DEVELOPMENT</span>
+                    </div>
+
+                    <h3 class="coming-soon-title">
+                        <span class="title-line-left"></span>
+                        <span class="title-text">КОЛЕКЦІЯ ФОРМУЄТЬСЯ</span>
+                        <span class="title-line-right"></span>
+                    </h3>
+
+                    <p class="coming-soon-description">
+                        Ми не просто збираємо автомобілі — ми відбираємо символи статусу та потужності. 
+                        Кожен екземпляр проходить суворий відбір, перш ніж потрапити до приватного гаражу сім'ї.
+                        Скоро ви побачите найкращі зразки автомобільної індустрії.
+                    </p>
+
+                    <div class="premium-counter">
+                        <div class="counter-item">
+                            <span class="counter-value">85%</span>
+                            <span class="counter-label">ГОТОВНІСТЬ</span>
+                        </div>
+                        <div class="counter-divider"></div>
+                        <div class="counter-item">
+                            <span class="counter-value">12</span>
+                            <span class="counter-label">ЕКЗЕМПЛЯРІВ</span>
+                        </div>
+                        <div class="counter-divider"></div>
+                        <div class="counter-item">
+                            <span class="counter-value">2026</span>
+                            <span class="counter-label">ВІДКРИТТЯ</span>
+                        </div>
+                    </div>
+
+                    <div class="premium-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%"></div>
+                        </div>
+                        <div class="progress-steps">
+                            <span class="step" style="left: 0%"></span>
+                            <span class="step" style="left: 25%"></span>
+                            <span class="step" style="left: 50%"></span>
+                            <span class="step" style="left: 75%"></span>
+                            <span class="step" style="left: 100%"></span>
+                        </div>
+                    </div>
+                    <div class="exclusive-signature">
+                        <span>PRIVATE COLLECTION</span>
+                        <span>●</span>
+                        <span>MEMBERS ONLY</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Як потрапити -->
+    <section class="content-page" id="join-page">
+        <div class="page-container">
+            <div class="section-header">
+                <span class="section-subtitle">RECRUITMENT</span>
+                <h2 class="page-title">
+                    <span class="title-line"></span>
+                    <span class="title-text">Як <span class="gold">Потрапити</span></span>
+                    <span class="title-line"></span>
+                </h2>
+            </div>
+            
+            <div class="join-container">
+                <div class="join-grid">
+                    <!-- Вимоги -->
+                    <div class="requirements-section" data-delay="0.1">
+                        <h3 class="section-heading">
+                            <span class="heading-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <circle cx="12" cy="8" r="4" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                                    <path d="M5 20v-2a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v2" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                                </svg>
+                            </span>
+                            Вимоги до кандидатів
+                        </h3>
+                        
+                        <div class="requirements-list">
+                            <div class="requirement-item">
+                                <span class="req-number">01</span>
+                                <div class="req-content">
+                                    <h4>Вік від 14 років</h4>
+                                    <p>Серйозність та зрілість — наш фундамент. Ми приймаємо тільки дорослих, відповідальних людей.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="requirement-item">
+                                <span class="req-number">02</span>
+                                <div class="req-content">
+                                    <h4>Активність у грі</h4>
+                                    <p>Мінімум 10 годин на тиждень для розвитку сім'ї. Регулярна присутність на подіях та операціях.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="requirement-item">
+                                <span class="req-number">03</span>
+                                <div class="req-content">
+                                    <h4>Наявність мікрофону</h4>
+                                    <p>Тактична комунікація у Discord обов'язкова. Голосовий зв'язок — ключ до успішних операцій.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="requirement-item">
+                                <span class="req-number">04</span>
+                                <div class="req-content">
+                                    <h4>Лояльність до сім'ї</h4>
+                                    <p>Прийняття нашого кодексу та ієрархії. Повага до старших та виконання наказів.</p>
+                                </div>
+                            </div>
+
+                            <div class="requirement-item">
+                                <span class="req-number">05</span>
+                                <div class="req-content">
+                                    <h4>Досвід у грі</h4>
+                                    <p>Базові знання механік гри, розуміння економіки та вміння працювати в команді.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Процес вступу -->
+                    <div class="process-section" data-delay="0.2">
+                        <h3 class="section-heading">
+                            <span class="heading-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M22 12h-4l-3 9-4-18-3 9H2" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                                </svg>
+                            </span>
+                            Процес вступу
+                        </h3>
+                        
+                        <div class="process-steps">
+                            <div class="process-step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4>Знайомство</h4>
+                                    <p>Зв'яжіться з нами через Discord або Telegram для первинної розмови</p>
+                                </div>
+                            </div>
+                            
+                            <div class="process-step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4>Співбесіда</h4>
+                                    <p>Особиста розмова з лідером або заступником для знайомства</p>
+                                </div>
+                            </div>
+                            
+                            <div class="process-step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4>Випробувальний термін</h4>
+                                    <p>2 тижні для підтвердження ваших якостей та лояльності</p>
+                                </div>
+                            </div>
+                            
+                            <div class="process-step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h4>Ініціація</h4>
+                                    <p>Офіційне прийняття в сім'ю після успішного проходження всіх етапів</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Соціальні контакти -->
+                <div class="join-social-wrapper" data-delay="0.3">
+                    <h3>Зв'яжіться з нами</h3>
+                    <div class="join-social">
+                        <a href="https://discord.gg/DRBRpDqFC" class="join-soc discord">
+                            <i class="fa-brands fa-discord"></i>
+                            <span>Discord</span>
+                            <small>Основний канал зв'язку</small>
+                        </a>
+                        <a href="https://t.me/INTINVICTA" class="join-soc telegram">
+                            <i class="fa-brands fa-telegram"></i>
+                            <span>Telegram</span>
+                            <small>Оперативні новини</small>
+                        </a>
+                    </div>
+                    <p class="join-note">Натисніть на іконку, щоб перейти до чату. Очікуйте відповіді протягом 24 годин.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
